@@ -4,7 +4,7 @@ const port = 3001;
 const cors = require('cors')
 
 app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "https://hr-management-4a24c.web.app");
+    res.header("Access-Control-Allow-Origin", "https://parkingmanagement-366920.web.app");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
